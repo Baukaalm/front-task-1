@@ -76,4 +76,4 @@ const dijkstra = (graph, start, finish) => {
   return results;
 };
 
-console.log('dijkstra', dijkstra(graph, start, finish));
+console.info('dijkstra', dijkstra(graph, start, finish));
